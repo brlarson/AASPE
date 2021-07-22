@@ -30,7 +30,7 @@ import org.eclipse.core.runtime.OperationCanceledException
 import org.eclipse.emf.common.util.URI
 import org.eclipse.xtext.resource.XtextResourceSet
 import org.osate.aadl2.AadlPackage
-import org.osate.aadl2.modelsupport.resources.PredeclaredProperties
+//import org.osate.aadl2.modelsupport.resources.PredeclaredProperties
 import org.osate.xtext.aadl2.ui.MyAadl2Activator
 import org.osate.aadl2.Data
 import java.util.List

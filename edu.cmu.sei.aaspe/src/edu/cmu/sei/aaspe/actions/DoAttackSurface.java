@@ -17,15 +17,15 @@ package edu.cmu.sei.aaspe.actions;
 
 //import org.eclipse.core.runtime.IProgressMonitor;
 //import org.osate.aadl2.Element;
-import org.osate.aadl2.instance.InstanceObject;
-import org.osate.aadl2.instance.SystemInstance;
-import org.osate.aadl2.util.OsateDebug;
-import org.osate.ui.actions.AaxlReadOnlyActionAsJob;
-import org.osate.ui.dialogs.Dialog;
-import org.osgi.framework.Bundle;
-
-import edu.cmu.sei.aaspe.Activator;
-import edu.cmu.sei.aaspe.logic.AttackSurface;
+//import org.osate.aadl2.instance.InstanceObject;
+//import org.osate.aadl2.instance.SystemInstance;
+//import org.osate.aadl2.util.OsateDebug;
+//import org.osate.ui.actions.AaxlReadOnlyActionAsJob;
+//import org.osate.ui.dialogs.Dialog;
+//import org.osgi.framework.Bundle;
+//
+//import edu.cmu.sei.aaspe.Activator;
+//import edu.cmu.sei.aaspe.logic.AttackSurface;
 
 public final class DoAttackSurface {}
 //extends AaxlReadOnlyActionAsJob {

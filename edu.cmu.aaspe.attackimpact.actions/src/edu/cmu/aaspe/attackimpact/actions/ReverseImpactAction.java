@@ -12,7 +12,7 @@ import org.eclipse.sirius.diagram.DDiagramElement;
 import org.eclipse.sirius.diagram.DNode;
 import org.eclipse.sirius.diagram.LineStyle;
 import org.eclipse.sirius.diagram.NodeStyle;
-import org.eclipse.sirius.diagram.business.internal.metamodel.spec.SquareSpec;
+//import org.eclipse.sirius.diagram.business.internal.metamodel.spec.SquareSpec;
 import org.eclipse.sirius.diagram.description.style.SquareDescription;
 import org.eclipse.sirius.viewpoint.RGBValues;
 import org.eclipse.sirius.viewpoint.Style;
@@ -54,18 +54,18 @@ public class ReverseImpactAction implements org.eclipse.sirius.tools.api.ui.IExt
 		}
 		
 		System.out.println ("[ImpactAction] node=" + node);
-		SquareSpec s = (SquareSpec)dnode.getOwnedStyle();
-		s.setWidth(400);
-		s.setBorderSizeComputationExpression("10");
-		s.setColor(RGBValues.create(120, 120 , 0));
+//		SquareSpec s = (SquareSpec)dnode.getOwnedStyle();
+//		s.setWidth(400);
+//		s.setBorderSizeComputationExpression("10");
+//		s.setColor(RGBValues.create(120, 120 , 0));
 
 		if (dnode.getStyle().getCustomFeatures().contains("color") == false)
 		{
 			dnode.getStyle().getCustomFeatures().add( "color");
 		}
-		dnode.setOwnedStyle(s); 
-		dnode.getOwnedStyle().refresh();
-		dnode.refresh();
+//		dnode.setOwnedStyle(s); 
+//		dnode.getOwnedStyle().refresh();
+//		dnode.refresh();
 	}
 	
 
