@@ -19,10 +19,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import javax.swing.plaf.ComponentUI;
-
 import org.eclipse.core.runtime.IProgressMonitor;
-import org.osate.aadl2.ConnectionKind;
 import org.osate.aadl2.instance.ComponentInstance;
 import org.osate.aadl2.instance.ConnectionInstance;
 import org.osate.aadl2.instance.EndToEndFlowInstance;
@@ -32,7 +29,7 @@ import org.osate.aadl2.modelsupport.modeltraversal.AadlProcessingSwitchWithProgr
 import org.osate.aadl2.util.OsateDebug;
 import org.osate.xtext.aadl2.properties.util.GetProperties;
 
-import com.sun.javafx.collections.MappingChange.Map;
+//import com.sun.javafx.collections.MappingChange.Map;
 
 import edu.cmu.sei.aaspe.utils.ComponentUtils;
 import edu.cmu.sei.aaspe.utils.PropertyUtils;

@@ -39,7 +39,7 @@
                id="org.osate.analysis.architecture.actions.AttackImpact.action"
                label="%AttackImpact.label"
                tooltip="%AttackImpact.toolTip"
-               class="edu.cmu.sei.aaspe.actions.DoAttackImpact"
+               class="edu.cmu.sei.aaspe.handlers.HandleAttackImpact"
                menubarPath="menu.analyses/menu.security/stuff.grp"
                toolbarPath="arch.toolbar"
                enablesFor="1">
@@ -59,7 +59,7 @@
                id="org.osate.analysis.architecture.actions.AttackSurface.action"
                label="%AttackSurface.label"
                tooltip="%AttackSurface.toolTip"
-               class="edu.cmu.sei.aaspe.actions.DoAttackSurface"
+               class="edu.cmu.sei.aaspe.handlers.HandleAttackSurface"
                menubarPath="menu.analyses/menu.security/stuff.grp"
                toolbarPath="arch.toolbar"
                enablesFor="1">
@@ -78,7 +78,7 @@
                id="org.osate.analysis.architecture.actions.ExportToAttackImpact.action"
                label="%ExportToAttackImpact.label"
                tooltip="%ExportToAttackImpact.toolTip"
-               class="edu.cmu.sei.aaspe.actions.DoExportAttackImpact"
+               class="edu.cmu.sei.aaspe.handlers.ExportAttackImpact"
                menubarPath="menu.analyses/menu.security/stuff.grp"
                toolbarPath="arch.toolbar"
                enablesFor="1">

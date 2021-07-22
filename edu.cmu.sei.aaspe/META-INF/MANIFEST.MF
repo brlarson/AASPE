@@ -29,7 +29,8 @@ Require-Bundle: org.osate.aadl2,
  org.eclipse.sirius.ui,
  org.osate.xtext.aadl2.properties;bundle-version="1.0.0",
  org.osate.xtext.aadl2;bundle-version="1.0.0",
- edu.cmu.aaspe.attackimpact;bundle-version="0.1.0"
+ edu.cmu.aaspe.attackimpact;bundle-version="0.1.0",
+ org.eclipse.ui.console;bundle-version="3.9.200"
 Eclipse-LazyStart: true
 Import-Package: edu.cmu.attackimpact,
  org.osate.aadl2.instantiation,
