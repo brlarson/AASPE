@@ -78,7 +78,7 @@
                id="org.osate.analysis.architecture.actions.ExportToAttackImpact.action"
                label="%ExportToAttackImpact.label"
                tooltip="%ExportToAttackImpact.toolTip"
-               class="edu.cmu.sei.aaspe.handlers.ExportAttackImpact"
+               class="edu.cmu.sei.aaspe.handlers.HandleExportAttackImpact"
                menubarPath="menu.analyses/menu.security/stuff.grp"
                toolbarPath="arch.toolbar"
                enablesFor="1">

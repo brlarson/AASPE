@@ -22,11 +22,14 @@ import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Path;
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.resource.Resource;
+import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.IWorkbenchPage;
+import org.eclipse.ui.IWorkbenchWindow;
+import org.eclipse.ui.IWorkbenchWindowActionDelegate;
 import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.console.ConsolePlugin;
@@ -47,8 +50,14 @@ import org.osate.ui.dialogs.Dialog;
 
 import edu.cmu.sei.aaspe.util.SelectionHelper;
 
-public abstract class AbstractAaspeHandler extends AbstractHandler
+public abstract class AbstractAaspeHandler extends AbstractHandler implements IWorkbenchWindowActionDelegate
   {
+  //methods for IWorkbenchWindowActionDelegate
+  public void dispose() {}
+  protected IWorkbenchWindow window;
+  public void init(IWorkbenchWindow window) { this.window = window; }
+  public void run(IAction action) {}
+  public void selectionChanged(IAction action, ISelection selection)  {}
   protected abstract IStatus runJob(Element sel, IProgressMonitor monitor);
 
   protected String getToolName() {
